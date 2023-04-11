@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F6E2E6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: ;
+}
+.container{
+    width: 80%;
+    height: 90%;
+    border: 1px solid;
+    background-color: #f4bbc7;
+    border-radius: 40px;
+    position: absolute;
+}
+/*header düzenlemem*/
+header{
+    display: flex;
+    justify-content: space-between; /*sağa sola yaslama*/
+    
+    height: 75px;
+    width: 100%;
+    align-items: center; /*dikey hizalama*/
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav ul {
+display: flex;
+gap: 20px;
+}
+.logo{
+   
+    height: 50px;
+    width: 50px;
+    
+    margin-left:10px ;
+}
+.logo img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+
+}
+ul li a{
+    color: rgb(187, 6, 100);
+    font-weight: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Contact{
+    color: rgba(216, 16, 199, 0.579);
+    font-weight: bold;
+}
+.icerik{
+    height: 400px;
+    width: 700px;
+    border: 1px solid;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    background-color: rgb(237, 215, 236);
+    
+}
+ .smoti{
+    position: absolute;
+    width: 614px;
+    height: 87px;
+    left: 70px;
+    top: 15px;
+    
+ 
+    
+}
+p{
+
+    position: relative;
+    width: 500px;
+    height: 87px;
+    left: 50px;
+    top: 200px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+}
+.vector{
+  /* Vector */
+
+position: absolute;
+width: 1462.06px;
+height: 1659.9px;
+left: 700.96px;
+top: -596.94px;
+
+background: #DD2D50;
+transform: rotate(61.26deg);
+
+}
